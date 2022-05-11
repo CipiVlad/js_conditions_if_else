@@ -1,6 +1,6 @@
 // console.log("text");
 
-
+// ------lvl 2_2 ---checkAirQuality() ---------------------
 
 let aqi = document.getElementById('aqi');
 
@@ -26,6 +26,33 @@ function checkAirQuality() {
         document.getElementById('concern').innerHTML = 'Unhealthy for sensitive groups';
         document.getElementById('effect').innerHTML = 'Generable publics not likely affected';
     }
+}
 
+
+
+
+// ------lvl 2_3 ---getDifference ---------------------
+let num = 27;
+let a = 35;
+// let a = 74;
+// let a = 123;
+
+
+function getDifference() {
+
+    let result = a - num;
+
+    if (a > num) {
+        result = result * 2;
+    } else {
+        console.log(result);
+    }
+
+    console.log(result);
 
 }
+getDifference();
+
+
+
+// ------lvl 2_4 --- ---------------------
