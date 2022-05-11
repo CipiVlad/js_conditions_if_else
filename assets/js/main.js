@@ -55,4 +55,18 @@ getDifference();
 
 
 
-// ------lvl 2_4 --- ---------------------
+// ------lvl 2_4 --getTotal---------------------
+
+function getTotal(a, b) {
+    let total = a + b;
+    console.log(total)
+
+    if (a == b) {
+        total = total * 5;
+        console.log(total);
+    } else {
+        console.log(total);
+    }
+}
+// getTotal(2, 4);
+getTotal(5, 5);
