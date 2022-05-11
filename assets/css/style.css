@@ -1,0 +1,33 @@
+/* =================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+/* =================================== */
+/* 
+(Oder statt left und right = 0
+Mit with:100%) */
+/* Sticky Navbar */
+/* ======================
+    article - grid areas
+========================*/
+/* ======================
+section - flex in grid
+========================*/
+/* offset-x | offset-y | blur-radius | color */
+
+/*# sourceMappingURL=style.css.map */

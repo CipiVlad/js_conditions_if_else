@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .background {
+            display: flex;
+            justify-content: center;
+            margin-top: 25%;
+        }
+
+        label {
+            padding: 20px;
+            margin-left: 20px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!--------- h•e•a•d•e•r -------------- -->
+    <header>
+        <!-- --------- n•a•v-b•a•r ---------------->
+        <nav>
+
+        </nav>
+    </header>
+
+
+    <!-- -------- m•a•i•n ----------------->
+    <main>
+        <form action="" onsubmit="return false" class="background">
+            <label for="">AQI:</label><br>
+            <label for="" id="label"></label>
+            <input type="range" name="aqi" min="0" max="150" id="aqi" onclick="checkAirQuality()">
+
+        </form>
+        <label>Level of health concern: </label>
+        <lable id="concern"></lable><br>
+        <label>Level of health effect: </lable>
+            <lable id="effect"></lable>
+    </main>
+
+    <!-- ---------- f•o•o•t•e•r ------------- -->
+    <footer></footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
